@@ -11,7 +11,7 @@ def main():
         else:
             result = factorial(num)
             print(f"The factorial of {num} is: {result}")
-    except ValueError:
+except ValueError:
         print("Invalid input. Please enter a valid integer.")
 
 if __name__ == "__main__":
