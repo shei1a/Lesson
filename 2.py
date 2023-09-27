@@ -12,6 +12,7 @@ def main():
         else:
             result = factorial(num)
             print(f"The factorial of {num} is: {result}")
+
 except ValueError:
         print("Invalid input. Please enter a valid integer.")
 
